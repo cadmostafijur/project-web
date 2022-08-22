@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+       
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SignUp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h3>Sign Up</h3>
+        <form action="/signup" method="post">
+        {% csrf_token %}
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username (only letter and number)"  Required><br><br>
+            <label for="mail">Email:</label>
+            <input type="em" id="mail" name="mail" placeholder="Enter your Email" Required><br><br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your First name" Required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your Last name" Required><br><br>
+            <label for="stid">Student ID:</label>
+            <input type="text" id="stid" name="stid" placeholder="Enter your Student ID" Required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password1" name="password1" placeholder="Create your Password" Required><br><br>
+            <label for="ConfirmPassword">Confirm Password:</label>
+            <input type="text" id="ConfirmPassword" name=" ConfirmPassword" placeholder="Confirm your Password" Required><br><br>
+            <button type="submit">Sign Up</button>
+          </form>
+    </body>
+</html>
+
+        <script src="" async defer></script>
+    </body>
+</html>
